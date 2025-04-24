@@ -1,0 +1,205 @@
+/*
+Theme Name: Hostim
+Theme URI: https://hostim.themetags.com/
+Author: Themetags
+Author URI: https://themetags.com/
+Description: Hostim is a modern and clean WordPress theme suitable for any kind of Domain-Hosting provider and Digital Agency.
+Version: 4.3.0
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: hostim
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*Domain Seggestion */
+#hostim-domain-suggestions .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid currentColor;
+    border-right-color: transparent !important;
+}
+/* Custom utility class */
+.bg-white__ {
+    background-color: #fff;
+}
+
+/* Service card layout 10 style added ==================== */
+h5.text-black.fs-20.mb-20.service_title__ {
+    font-family: sans-serif;
+}
+.currency_title__,.price_title__{
+    font-weight: 700;
+}
+.service_card_item_24:hover {
+    background-color: #1f1f1f !important;
+}
+.service_card_item_24:hover h5, .service_card_item_24:hover p, .service_card_item_24:hover a {
+    color: #fff !important;
+}
+.text-danger {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+}  
+.service_card_item_24 {
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.text-black__{
+    color: #17191C;
+}
+
+/* Testimonial layout 14 style added --------------------------- */
+.popup_style_24 {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.feedback_24_item .img_wrapper img {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.feedback_24_item:hover .img_wrapper {
+    opacity: 1;
+    visibility: visible;
+}
+.feedback_24_item .img_wrapper {
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.feedback_24_item .author_information__{
+    margin-top: 88px;
+}
+.ff-sg {
+    font-family: sans-serif;
+}
+.host-web-slider-arrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #1e1e2c;
+}
+.host-web-slider-arrow:hover {
+    background: linear-gradient(269.13deg, #38EEB0 12.14%, #16A7FA 83.84%);
+}
+.review_content_style__ {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #49495F;
+}
+.author_name_style__ {
+    color: #182229;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.author_desig_style__{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #49495F;
+}
+
+/* Accordion layout 05 style added ----------------------------- */
+.hm2-accordion.faq_24 {
+    padding-inline: 0;
+    padding-block: 20px;
+}
+.hm2-accordion {
+    padding: 40px 30px;
+}
+.hm2-accordion.faq_24 .accordion-item .accordion-header a[aria-expanded=true] {
+    color: #01b67b;
+}
+.hm2-accordion.faq_24 .accordion-item .accordion-header a {
+    font-family: "Space Grotesk",sans-serif;
+}
+.hm2-accordion .accordion-item .accordion-header a {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #001042;
+    display: block;
+    position: relative;
+    padding-right: 25px;
+}
+.hm2-accordion.faq_24 .accordion-item .accordion-header a[aria-expanded=true]::after {
+    background-color: #01b67b;
+    color: #fff;
+}
+.hm2-accordion.faq_24 .accordion-item .accordion-header a::after {
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.hm2-accordion .accordion-item .accordion-header a::after {
+    content: "+";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 14px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #001042;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22px;
+}
+.hm2-accordion.faq_24 .accordion-item {
+    padding-inline: 30px;
+    border-color: #fff;
+    border-width: 2px;
+}
+.hm2-accordion .accordion-item {
+    padding: 15px 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+}
+.accordion.hm2-accordion{
+    background-color: #F6F7F9;
+}
